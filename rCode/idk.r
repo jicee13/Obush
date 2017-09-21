@@ -26,13 +26,11 @@ library(jsonlite)
 #year_files <- grepl("1973", file.names)
 #print(year_files)
 
-baptize <- function(fileName, dat_header, agency_trans_table, education_trans_table, agencies_to_save) {
+baptize <- function(fileName, dat_header, agency_trans_table, education_trans_table, agencyFilter, trash) {
   print('in function')
-  filePath = "/Users/jmiller/Desktop/opm-federal-employment-data/data/1973-09-to-2014-06/dod/status"
+  filePath = "/Volumes/Seagate Backup Plus Drive/Data Mining/opm-federal-employment-data/data/1973-09-to-2014-06/dod/status"
   realFileName = paste(filePath,fileName, sep="")
-  print(fileName)
-  return
-  raw <- readLines(fileNames, n=100000)
+  raw <- readLines(fileNames)
 
   #get numbers necessary from header file
   dat <- t(sapply(raw, FUN = function(x) trimws(substring(x, dat_header[,2], dat_header[,3]))))
@@ -41,7 +39,7 @@ baptize <- function(fileName, dat_header, agency_trans_table, education_trans_ta
 
   #name columns
   colnames(dat) <- dat_header[,1]
-  dat <- dat[grep(paste(agencies_to_save, collapse = '|'), dat$Agency),]
+  dat <- dat[grep(paste(agencyFilter, collapse = '|'), dat$Agency),]
   dat$Pay <- as.numeric(as.character(dat$Pay))
   dat$Age <- as.numeric(substring(as.character(dat$Age), 1, 2))
 
@@ -69,7 +67,7 @@ baptize <- function(fileName, dat_header, agency_trans_table, education_trans_ta
   dat <- dat[!(as.numeric(rownames(dat)) %in% gottaGo),]
 
   lengthDiff <- startLength - length(dat$PseudoID)
-  print(paste("Removed",toString(lengthDiff),"duplicates.", sep=" "))
+  print(paste("Removed",toString(lengthDiff),"duplicates from",startLength,"total entries.", sep=" "))
 
 
   m <- match(dat$Education, education_trans_table$education_ID)
@@ -80,17 +78,32 @@ baptize <- function(fileName, dat_header, agency_trans_table, education_trans_ta
   m <- match(dat$Agency, agency_trans_table$agency_ID)
   dat$AgencyName <-  agency_trans_table$agency_name[m]
 
+  #single out all the nA's
+  dat$Station <- as.numeric(as.character(dat$Station))
+  dat$SupervisoryStatus <- as.numeric(as.character(dat$SupervisoryStatus))
+  dat$Appointment <- as.numeric(as.character(dat$Appointment))
+  dat$Schedule <- as.numeric(as.character(dat$Schedule))
+  dat$Education <- as.numeric(as.character(dat$Education))
+  dat$Pay <- as.numeric(as.character(dat$Pay))
+  dat$Age <- replace(dat$Age, dat$Age == "UNSP",NA)
+  dat$Age <- as.numeric(as.character(dat$Age))
+
+
+  #for age and pa replace the NA with the median (imputation)
+  dat$Age[is.na(dat$Age)] <- with(dat, ave(Age, length(dat$Age), FUN = function(x) median(x, na.rm = TRUE)))[is.na(dat$Age)]
+  dat$Pay[is.na(dat$Pay)] <- with(dat, ave(Pay, length(dat$Pay), FUN = function(x) median(x, na.rm = TRUE)))[is.na(dat$Pay)]
+
   # dat$Fulltime <- FALSE
   # dat$Fulltime[dat$Schedule == "F" | dat$Schedule == "G"] <- TRUE
   # dat$Seasonal <- FALSE
   # dat$Seasonal[dat$Schedule %in% c("G", "J", "Q", "T")] <- TRUE
 
-  #print(summary(dat))
   return(dat)
   #write.csv(dat, file = "/Users/jmiller/Projects/dataMining/projectOne/rCode/gah.csv", sep = "")
   }
 
-generalPath = "/Users/jmiller/Desktop/opm-federal-employment-data/data/"
+
+generalPath = "/Volumes/Seagate Backup Plus Drive/Data Mining/opm-federal-employment-data/data/"
 fileNames <- paste(generalPath,"1973-09-to-2014-06/dod/status/Status_DoD_1973_09.txt", sep="")
 agencyFile <- paste(generalPath,"1973-09-to-2014-06/SCTFILE.TXT", sep="")
 educationFile <- paste(generalPath,"2014-09-to-2016-09/dod/translations/Education20Translation.txt", sep="")
@@ -108,52 +121,34 @@ education_trans_table <- data.frame(education_ID = education_ID, education_name 
 #fuck <- sapply(fileNames, dat_header, agencyFile, educationFile, FUN = baptize())
 
 
-agencies_to_save <- c("AGEP", "AHEP",
-                      "AGHE", "AHHE",
-                      "AGHS", "AHHS",
-                      "AGHU", "AHHU",
-                      "AGDN", "AHDN",
-                      "AGED", "AHED",
-                      "AGDJ", "AHDJ",
-                      "AGDD", "AHDD",
-                      "AGEM", "AHEM",
-                      "AGGS", "AHGS",
-                      "AGIN", "AHIN",
-                      "AGTD", "AHTD",
-                      "AGNN", "AHNN",
-                      "AGOI", "AHOI",
-                      "AGSP", "AHSP",
-                      "AGTR07", "AGTR93",
-                      "AGVA", "AHVA")
-agencies_to_save <- sapply(agencies_to_save, FUN = function(x) substring(x, 3,6))
+agencyFilter <- c("AGEP", "AHEP", "AGHS", "AHHS",
+                      "AGDN", "AHDN", "AGED", "AHED",
+                      "AGDJ", "AHDJ", "AGDD", "AHDD",
+                      "AGEM", "AHEM", "AGGS", "AHGS",
+                      "AGTD", "AHTD", "AGNN", "AHNN",
+                      "AGOI", "AHOI", "AGSP", "AHSP",
+                      "AGTR07", "AGTR93", "AGVA", "AHVA")
+agencyFilter <- lapply(agencies_to_save, FUN = function(x) substring(x, 3,6))
 
 #path = "/Users/jmiller/Projects/dataMining/projectOne/rCode/testData"
-path = "/Users/jmiller/Desktop/opm-federal-employment-data/data/1973-09-to-2014-06/non-dod/status"
+path = "/Volumes/Seagate Backup Plus Drive/Data Mining/opm-federal-employment-data/data/1973-09-to-2014-06/non-dod/status"
 cleanPath = "/Users/jmiller/Projects/dataMining/projectOne/rCode/cleanData/"
 file.names <- dir(path, pattern =".txt")
+
+trash = c("#########","UNSP","*","**","*********")
 
 yearsIWant = c(2001:2014)
 
 dat_header <- read.csv("/Users/jmiller/Projects/dataMining/projectOne/rCode/headers.csv", header = TRUE)
 
-count = 0
 for(i in 1:length(yearsIWant)){
-  if (count > 0) {
-    stop()
-  } else {
-    #print(dat_header)
     filesThisYear <- grep(yearsIWant[i], file.names, value = TRUE)
-    combinedData <- do.call(rbind, lapply(filesThisYear, dat_header, agency_trans_table, education_trans_table,agencies_to_save, FUN = baptize))
-    print("writing file now")
+    combinedData <- do.call(rbind, lapply(filesThisYear, dat_header, agency_trans_table, education_trans_table,agencyFilter, FUN = baptize))
+    print(paste("writing file for ",yearsIWant[i], sep=""))
     write.csv(combinedData, file = paste(cleanPath, yearsIWant[i], "_PURE.csv", sep = ""))
-  }
 }
-
-
-# fuck <- baptize(fileNames, dat_header, agency_trans_table, education_trans_table, agencies_to_save)
-# print(fuck)
-# print(agencies_to_save)
-
-# write.table(summary(dat$AgencyName), file = "/Users/jmiller/Projects/dataMining/projectOne/rCode/dataexp.txt")
-# ok <- as.data.frame.matrix(read.table("/Users/jmiller/Projects/dataMining/projectOne/rCode/dataexp.txt"))
-# print(summary(dat))
+#
+#
+# fuck <- baptize(fileNames, dat_header, agency_trans_table, education_trans_table, agencies_to_save, trash)
+# print("writing file now")
+# write.csv(fuck, file = paste(cleanPath, "TEST_PURE.csv", sep = ""))
