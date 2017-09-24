@@ -1,30 +1,4 @@
 
-library(jsonlite)
-# fileNames <- list()
-
-# fileNames[1] <- "/Users/jmiller/Desktop/opm-federal-employment-data/data/1973-09-to-2014-06/dod/status/Status_DoD_1973_12.txt"
-#fileNames[2] <- "/Users/jmiller/Desktop/opm-federal-employment-data/data/1973-09-to-2014-06/dod/status/Status_DoD_1974_03.txt"
-
-
-
-# print(file.names)
-# k = 0
-# for(i in 1:length(file.names)){
-#   #print(substring(file.names[i], 16, 19))
-#   uhhh <- grep(paste("1973", collapse = ""), file.names)
-#   #print(uhhh)
-#   #fuckDick = list()
-#   if (grepl("1973", file.names[i]) == TRUE) {
-#   }
-# }
-
-#year_files <- grep(paste("Status_Non_DoD_", "1973", "_[01][3692].txt", sep = ""), file.names, perl = TRUE, value = TRUE)
-
-# for(i in 1:length(fuckDick)){
-#   print(fuckDick[i])
-# }
-#year_files <- grepl("1973", file.names)
-#print(year_files)
 
 baptize <- function(fileName, dat_header, agency_trans_table, education_trans_table, agencyFilter, trash, nsftp_trans_table, payPlan_trans_table, supervisor_trans_table, schdule_trans_table, state_trans_table, appt_trans_table, occ_trans_table) {
   print('in function')
@@ -49,7 +23,7 @@ baptize <- function(fileName, dat_header, agency_trans_table, education_trans_ta
 
   startLength <- length(dat$PseudoID)
 
-  #pull out duplicate
+  #pull out duplicates
   n_occur <- data.frame(table(dat$PseudoID))
   dupTable <- dat[dat$PseudoID %in% n_occur$Var1[n_occur$Freq > 1],]
 
@@ -68,14 +42,13 @@ baptize <- function(fileName, dat_header, agency_trans_table, education_trans_ta
   gottaGo <- as.numeric(rownames(orderedDupTable[duplicated(orderedDupTable$PseudoID, orderedDupTable$Agency),]))
   dat <- dat[!(as.numeric(rownames(dat)) %in% gottaGo),]
 
+  # Calculate # of duplicates removed
   lengthDiff <- startLength - length(dat$PseudoID)
   print(paste("Removed",toString(lengthDiff),"duplicates from",startLength,"total entries.", sep=" "))
 
-
+  # Create new columns for all parsed names mapped to variables
   m <- match(dat$Education, education_trans_table$education_ID)
   dat$EducationName <-  education_trans_table$education_name[m]
-
-
 
   m <- match(dat$Agency, agency_trans_table$agency_ID)
   dat$AgencyName <-  agency_trans_table$agency_name[m]
@@ -116,13 +89,7 @@ baptize <- function(fileName, dat_header, agency_trans_table, education_trans_ta
   dat$Age[is.na(dat$Age)] <- with(dat, ave(Age, length(dat$Age), FUN = function(x) median(x, na.rm = TRUE)))[is.na(dat$Age)]
   dat$Pay[is.na(dat$Pay)] <- with(dat, ave(Pay, length(dat$Pay), FUN = function(x) median(x, na.rm = TRUE)))[is.na(dat$Pay)]
 
-  # dat$Fulltime <- FALSE
-  # dat$Fulltime[dat$Schedule == "F" | dat$Schedule == "G"] <- TRUE
-  # dat$Seasonal <- FALSE
-  # dat$Seasonal[dat$Schedule %in% c("G", "J", "Q", "T")] <- TRUE
-
   return(dat)
-  #write.csv(dat, file = "/Users/jmiller/Projects/dataMining/projectOne/rCode/gah.csv", sep = "")
   }
 
 
@@ -134,6 +101,7 @@ fileNames <- paste(generalPath,"1973-09-to-2014-06/dod/status/Status_DoD_1973_09
 agencyFile <- paste(generalPath,"1973-09-to-2014-06/SCTFILE.TXT", sep="")
 educationFile <- paste(generalPath,"2014-09-to-2016-09/dod/translations/Education20Translation.txt", sep="")
 
+# Translate all .txt files containing mapping to the decoding of variables
 agency_trans <- readLines(agencyFile, n=1000)
 agency_ID <- sapply(agency_trans, FUN = function(x) substring(x, 3,6))
 agency_name <- trimws(sapply(agency_trans, FUN = function(x) substring(x, 36,75)))
@@ -179,9 +147,8 @@ occ_ID <- sapply(occ_trans, FUN = function(x) substring(x, 1,2))
 occ_name <- trimws(sapply(occ_trans, FUN = function(x) substring(x, 5,70)))
 occ_trans_table <- data.frame(occ_ID = occ_ID, occ_name = occ_name)
 
-#fuck <- sapply(fileNames, dat_header, agencyFile, educationFile, FUN = baptize())
 
-
+# Only record data on these agencies
 agencyFilter <- c("AGEP", "AHEP", "AGHS", "AHHS",
                       "AGDN", "AHDN", "AGED", "AHED",
                       "AGDJ", "AHDJ", "AGDD", "AHDD",
@@ -191,13 +158,12 @@ agencyFilter <- c("AGEP", "AHEP", "AGHS", "AHHS",
                       "AGTR07", "AGTR93", "AGVA", "AHVA")
 agencyFilter <- lapply(agencyFilter, FUN = function(x) substring(x, 3,6))
 
-#path = "/Users/jmiller/Projects/dataMining/projectOne/rCode/testData"
 path = "/Volumes/Seagate Backup Plus Drive/Data Mining/opm-federal-employment-data/data/1973-09-to-2014-06/non-dod/status"
 cleanPath = "/Users/jmiller/Projects/dataMining/projectOne/rCode/newCleanData/"
 file.names <- dir(path, pattern =".txt")
 
 
-
+# Strings to be replaced
 trash = c("#########","UNSP","*","**","*********")
 
 yearsIWant = c(2005:2012)
@@ -207,17 +173,10 @@ dat_header <- read.csv("/Users/jmiller/Projects/dataMining/projectOne/rCode/head
 for(i in 1:length(yearsIWant)){
   filesThisYear <- grep(yearsIWant[i], file.names, value = TRUE)
   for(j in 1:length(filesThisYear)){
+    # For every year I specify, pass file name to function and write clean data to CSV
     print(paste("starting ",filesThisYear[j], sep=""))
-#     combinedData <- do.call(rbind, lapply(filesThisYear, dat_header, agency_trans_table, education_trans_table,agencyFilter, FUN = baptize))
     dataToWrite <- baptize(filesThisYear[j], dat_header, agency_trans_table, education_trans_table, agencyFilter, trash, nsftp_trans_table,payPlan_trans_table, supervisor_trans_table, schdule_trans_table, state_trans_table, appt_trans_table, occ_trans_table)
     print(paste("writing file for ",filesThisYear[j], sep=""))
     write.csv(dataToWrite, file = paste(cleanPath, filesThisYear[j], "_PURE.csv", sep = ""))
+  }
 }
-}
-
-#
-#
-# fuck <- baptize('Status_Non_DoD_2007_09.txt', dat_header, agency_trans_table, education_trans_table, agencyFilter, trash, nsftp_trans_table, payPlan_trans_table, supervisor_trans_table, schdule_trans_table, state_trans_table, appt_trans_table, occ_trans_table)
-# print(summary(fuck))
-# print("writing file now")
-# write.csv(fuck, file = paste(cleanPath, "TEST_PURE.csv", sep = ""))
