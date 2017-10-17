@@ -1,0 +1,5 @@
+NSFTP Code                NSFTP Translation
+1                         Non-Seasonal, FUll-Time, Permanent Employees
+2                         Not Non-Seasonal, Full-Time, Permanent Employees
+
+

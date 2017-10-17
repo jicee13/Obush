@@ -1,0 +1,19 @@
+Accessions/Separations Code       Accessions/Separations Translation
+AA                                Transfer In - Individual Transfer
+AB                                Transfer In - Mass Transfer
+AC                                New Hire - Competitive Service Appointment
+AD                                New Hire - Excepted Service Appointment
+AE                                New Hire - Senior Executive Service (SES) Appt
+SA                                Transfer Out - Individual Transfer
+SB                                Transfer Out - Mass Transfer
+SC                                Quit
+SD                                Retirement - Voluntary
+SE                                Retirement - Early Out
+SF                                Retirement - Disability
+SG                                Retirement - Other
+SH                                Reduction In Force (RIF)
+SI                                Termination or Removal (Discipline/Performance)
+SJ                                Termination (Expired Appt/Other)
+SK                                Death
+SL                                Other Separation
+

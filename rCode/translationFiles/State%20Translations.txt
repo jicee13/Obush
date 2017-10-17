@@ -1,0 +1,319 @@
+State Code                     State Translation
+AA                             AA-ARUBA
+AC                             AC-ANTIGUA AND BARBUDA
+AE                             AE-UNITED ARAB EMIRATES
+AF                             AF-AFGHANISTAN
+AG                             AG-ALGERIA
+AJ                             AJ-AZERBAIJAN
+AL                             AL-ALBANIA
+AM                             AM-ARMENIA
+AN                             AN-ANDORRA
+AO                             AO-ANGOLA
+AQ                             AQ-AMERICAN SAMOA
+AR                             AR-ARGENTINA
+AS                             AS-AUSTRALIA
+AT                             AT-ASHMORE AND CARTIER ISLANDS
+AU                             AU-AUSTRIA
+AV                             AV-ANGUILLA
+AY                             AY-ANTARCTICA
+BA                             BA-BAHRAIN
+BB                             BB-BARBADOS
+BC                             BC-BOTSWANA
+BD                             BD-BERMUDA
+BE                             BE-BELGIUM
+BF                             BF-BAHAMAS, THE
+BG                             BG-BANGLADESH
+BH                             BH-BELIZE
+BK                             BK-BOSNIA AND HERZEGOVINA
+BL                             BL-BOLIVIA
+BM                             BM-BURMA
+BN                             BN-BENIN
+BO                             BO-BELARUS
+BP                             BP-SOLOMON ISLANDS
+BQ                             BQ-NAVASSA ISLAND
+BR                             BR-BRAZIL
+BS                             BS-BASSAS DA INDIA
+BT                             BT-BHUTAN
+BU                             BU-BULGARIA
+BV                             BV-BOUVET ISLAND
+BX                             BX-BRUNEI
+BY                             BY-BURUNDI
+CA                             CA-CANADA
+CB                             CB-CAMBODIA
+CD                             CD-CHAD
+CE                             CE-SRI LANKA
+CF                             CF-CONGO
+CG                             CG-CONGO, DEMOCRATIC REPUBLIC OF THE
+CH                             CH-CHINA
+CI                             CI-CHILE
+CJ                             CJ-CAYMAN ISLANDS
+CK                             CK-COCOS (KEELING) ISLANDS
+CM                             CM-CAMEROON
+CN                             CN-COMOROS
+CO                             CO-COLOMBIA
+CQ                             CQ-NORTHERN MARIANA ISLANDS
+CR                             CR-CORAL SEA ISLANDS
+CS                             CS-COSTA RICA
+CT                             CT-CENTRAL AFRICAN REPUBLIC
+CU                             CU-CUBA
+CV                             CV-CAPE VERDE
+CW                             CW-COOK ISLANDS
+CY                             CY-CYPRUS
+DA                             DA-DENMARK
+DJ                             DJ-DJIBOUTI
+DO                             DO-DOMINICA
+DQ                             DQ-JARVIS ISLAND
+DR                             DR-DOMINICAN REPUBLIC
+EC                             EC-ECUADOR
+EG                             EG-EGYPT
+EI                             EI-IRELAND
+EK                             EK-EQUATORIAL GUINEA
+EN                             EN-ESTONIA
+ER                             ER-ERITREA
+ES                             ES-EL SALVADOR
+ET                             ET-ETHIOPIA
+EU                             EU-EUROPA ISLAND
+EZ                             EZ-CZECH REPUBLIC
+FG                             FG-FRENCH GUIANA
+FI                             FI-FINLAND
+FJ                             FJ-FIJI
+FK                             FK-FALKLAND (ISLAS MALVINAS)
+FM                             FM-MICRONESIA, FEDERATED STATES OF
+FO                             FO-FAROE ISLANDS
+FP                             FP-FRENCH POLYNESIA
+FQ                             FQ-BAKER ISLAND
+FR                             FR-FRANCE
+FS                             FS-FRENCH SOUTHERN AND ANTARCTIC LANDS
+GA                             GA-GAMBIA, THE
+GB                             GB-GABON
+GG                             GG-GEORGIA
+GH                             GH-GHANA
+GI                             GI-GIBRALTAR
+GJ                             GJ-GRENADA
+GK                             GK-GUERNSEY
+GL                             GL-GREENLAND
+GM                             GM-GERMANY
+GO                             GO-GLORIOSO ISLANDS
+GP                             GP-GUADELOUPE
+GQ                             GQ-GUAM
+GR                             GR-GREECE
+GT                             GT-GUATEMALA
+GV                             GV-GUINEA
+GY                             GY-GUYANA
+GZ                             GZ-GAZA STRIP
+HA                             HA-HAITI
+HK                             HK-HONG KONG
+HM                             HM-HEARD ISLAND AND MCDONALD ISLANDS
+HO                             HO-HONDURAS
+HQ                             HQ-HOWLAND ISLAND
+HR                             HR-CROATIA
+HU                             HU-HUNGARY
+IC                             IC-ICELAND
+ID                             ID-INDONESIA
+IM                             IM-MAN, ISLE OF
+IN                             IN-INDIA
+IO                             IO-BRITISH INDIAN OCEAN TERRITORY
+IP                             IP-CLIPPERTON ISLAND
+IR                             IR-IRAN
+IS                             IS-ISRAEL
+IT                             IT-ITALY
+IV                             IV-COTE D'IVOIRE
+IZ                             IZ-IRAQ
+JA                             JA-JAPAN
+JE                             JE-JERSEY
+JM                             JM-JAMAICA
+JN                             JN-JAN MAYEN
+JO                             JO-JORDAN
+JQ                             JQ-JOHNSTON ATOLL
+JU                             JU-JUAN DE NOVA ISLAND
+KE                             KE-KENYA
+KG                             KG-KYRGYZSTAN
+KN                             KN-KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF
+KQ                             KQ-KINGMAN REEF
+KR                             KR-KIRIBATI
+KS                             KS-KOREA, REPUBLIC OF
+KT                             KT-CHRISTMAS ISLAND
+KU                             KU-KUWAIT
+KV                             KV-KOSOVO
+KZ                             KZ-KAZAKHSTAN
+LA                             LA-LAOS
+LE                             LE-LEBANON
+LG                             LG-LATVIA
+LH                             LH-LITHUANIA
+LI                             LI-LIBERIA
+LO                             LO-SLOVAKIA
+LQ                             LQ-PALMYRA ATOLL
+LS                             LS-LIECHTENSTEIN
+LT                             LT-LESOTHO
+LU                             LU-LUXEMBOURG
+LY                             LY-LIBYA
+MA                             MA-MADAGASCAR
+MB                             MB-MARTINIQUE
+MC                             MC-MACAU
+MD                             MD-MOLDOVA
+MF                             MF-MAYOTTE
+MG                             MG-MONGOLIA
+MH                             MH-MONTSERRAT
+MI                             MI-MALAWI
+MJ                             MJ-MONTENEGRO
+MK                             MK-MACEDONIA
+ML                             ML-MALI
+MN                             MN-MONACO
+MO                             MO-MOROCCO
+MP                             MP-MAURITIUS
+MQ                             MQ-MIDWAY ISLANDS
+MR                             MR-MAURITANIA
+MT                             MT-MALTA
+MU                             MU-OMAN
+MV                             MV-MALDIVES
+MX                             MX-MEXICO
+MY                             MY-MALAYSIA
+MZ                             MZ-MOZAMBIQUE
+NC                             NC-NEW CALEDONIA
+NE                             NE-NIUE
+NF                             NF-NORFOLK ISLAND
+NG                             NG-NIGER
+NH                             NH-VANUATU
+NI                             NI-NIGERIA
+NL                             NL-NETHERLANDS
+NO                             NO-NORWAY
+NP                             NP-NEPAL
+NR                             NR-NAURU
+NS                             NS-SURINAME
+NT                             NT-NETHERLANDS ANTILLES
+NU                             NU-NICARAGUA
+NZ                             NZ-NEW ZEALAND
+OD                             OD-SOUTH SUDAN
+PA                             PA-PARAGUAY
+PC                             PC-PITCAIRN ISLANDS
+PE                             PE-PERU
+PF                             PF-PARACEL ISLANDS
+PG                             PG-SPRATLY ISLANDS
+PK                             PK-PAKISTAN
+PL                             PL-POLAND
+PM                             PM-PANAMA
+PO                             PO-PORTUGAL
+PP                             PP-PAPUA NEW GUINEA
+PS                             PS-PALAU
+PT                             PT-PORTUGUESE TIMOR
+PU                             PU-GUINEA-BISSAU
+QA                             QA-QATAR
+RE                             RE-REUNION
+RI                             RI-SERBIA
+RM                             RM-MARSHALL ISLANDS
+RO                             RO-ROMANIA
+RP                             RP-PHILIPPINES
+RQ                             RQ-PUERTO RICO
+RS                             RS-RUSSIA
+RW                             RW-RWANDA
+SA                             SA-SAUDI ARABIA
+SB                             SB-SAINT PIERRE AND MIQUELON
+SC                             SC-SAINT KITTS AND NEVIS
+SE                             SE-SEYCHELLES
+SF                             SF-SOUTH AFRICA
+SG                             SG-SENEGAL
+SH                             SH-SAINT HELENA
+SI                             SI-SLOVENIA
+SL                             SL-SIERRA LEONE
+SM                             SM-SAN MARINO
+SN                             SN-SINGAPORE
+SO                             SO-SOMALIA
+SP                             SP-SPAIN
+ST                             ST-SAINT LUCIA
+SU                             SU-SUDAN
+SV                             SV-SVALBARD
+SW                             SW-SWEDEN
+SX                             SX-SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS
+SY                             SY-SYRIA
+SZ                             SZ-SWITZERLAND
+TD                             TD-TRINIDAD AND TOBAGO
+TE                             TE-TROMELIN ISLAND
+TH                             TH-THAILAND
+TI                             TI-TAJIKISTAN
+TK                             TK-TURKS AND CAICOS ISLANDS
+TL                             TL-TOKELAU
+TN                             TN-TONGA
+TO                             TO-TOGO
+TP                             TP-SAO TOME AND PRINCIPE
+TS                             TS-TUNISIA
+TT                             TT-TIMOR-LESTE
+TU                             TU-TURKEY
+TV                             TV-TUVALU
+TW                             TW-TAIWAN
+TX                             TX-TURKMENISTAN
+TZ                             TZ-TANZANIA
+UG                             UG-UGANDA
+UK                             UK-UNITED KINGDOM
+UP                             UP-UKRAINE
+US                             US-SUPPRESSED
+UV                             UV-BURKINA FASO
+UY                             UY-URUGUAY
+UZ                             UZ-UZBEKISTAN
+VC                             VC-SAINT VINCENT AND THE GRENADINES
+VE                             VE-VENEZUELA
+VI                             VI-BRITISH VIRGIN ISLANDS
+VM                             VM-VIETNAM
+VQ                             VQ-VIRGIN ISLANDS
+VT                             VT-VATICAN CITY
+WA                             WA-NAMIBIA
+WE                             WE-WEST BANK
+WF                             WF-WALLIS AND FUTUNA
+WI                             WI-WESTERN SAHARA
+WQ                             WQ-WAKE ATOLL
+WS                             WS-SAMOA
+WZ                             WZ-SWAZILAND
+YM                             YM-YEMEN
+ZA                             ZA-ZAMBIA
+ZI                             ZI-ZIMBABWE
+01                             01-ALABAMA
+02                             02-ALASKA
+04                             04-ARIZONA
+05                             05-ARKANSAS
+06                             06-CALIFORNIA
+08                             08-COLORADO
+09                             09-CONNECTICUT
+10                             10-DELAWARE
+11                             11-DISTRICT OF COLUMBIA
+12                             12-FLORIDA
+13                             13-GEORGIA
+15                             15-HAWAII
+16                             16-IDAHO
+17                             17-ILLINOIS
+18                             18-INDIANA
+19                             19-IOWA
+20                             20-KANSAS
+21                             21-KENTUCKY
+22                             22-LOUISIANA
+23                             23-MAINE
+24                             24-MARYLAND
+25                             25-MASSACHUSETTS
+26                             26-MICHIGAN
+27                             27-MINNESOTA
+28                             28-MISSISSIPPI
+29                             29-MISSOURI
+30                             30-MONTANA
+31                             31-NEBRASKA
+32                             32-NEVADA
+33                             33-NEW HAMPSHIRE
+34                             34-NEW JERSEY
+35                             35-NEW MEXICO
+36                             36-NEW YORK
+37                             37-NORTH CAROLINA
+38                             38-NORTH DAKOTA
+39                             39-OHIO
+40                             40-OKLAHOMA
+41                             41-OREGON
+42                             42-PENNSYLVANIA
+44                             44-RHODE ISLAND
+45                             45-SOUTH CAROLINA
+46                             46-SOUTH DAKOTA
+47                             47-TENNESSEE
+48                             48-TEXAS
+49                             49-UTAH
+50                             50-VERMONT
+51                             51-VIRGINIA
+53                             53-WASHINGTON
+54                             54-WEST VIRGINIA
+55                             55-WISCONSIN
+56                             56-WYOMING
+**                             **-UNSPECIFIED

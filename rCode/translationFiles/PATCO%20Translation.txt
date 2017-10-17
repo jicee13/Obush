@@ -1,0 +1,7 @@
+PATCO Code                     PATCO Translation
+A                              ADMINISTRATIVE
+B                              BLUE COLLAR
+C                              CLERICAL
+O                              OTHER WHITE COLLAR
+P                              PROFESSIONAL
+T                              TECHNICAL

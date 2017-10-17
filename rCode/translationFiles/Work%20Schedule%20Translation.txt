@@ -1,0 +1,13 @@
+Work Schedule Code       Work Schedule Translation
+                          -No Data Reported                                                            
+*                        *-Invalid                                                                     
+B                        B-BAYLOR PLAN                                                                 
+F                        F-FULL-TIME                                                                   
+G                        G-FULL-TIME SEASONAL                                                          
+I                        I-INTERMITTENT                                                                
+J                        J-INTERMITTENT SEASONAL                                                       
+P                        P-PART-TIME                                                                   
+Q                        Q-PART-TIME SEASONAL                                                          
+R                        R-A SCHEDULE REQUIRED WHEN AN EMPLOYEE HAS ELECTED PHASED EMPLOYMENT/PHASED RE
+S                        S-PART-TIME JOB SHARER                                                        
+T                        T-PART-TIME SEASONAL JOB SHARER                                               

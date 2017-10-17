@@ -1,0 +1,315 @@
+Pay Plan Code         Pay Plan Translation                                                                               Start Date of Code           End Date of Code
+                       -No Data Reported                                                                                          .                   2100-12-31
+*                     *-Invalid                                                                                                   .                   2100-12-31
+AA                    AA-ADMINISTRATIVE APPEALS JUDGES                                                                   2001-04-01                   2100-12-31
+AD                    AD-ADMINISTRATIVELY DETERMINED RATES, NOT ELSEWHERE SPECIFIED                                      1972-06-01                   2100-12-31
+AF                    AF-AMERICAN FAMILY MEMBERS, PL 96-465, SEC 311                                                     1985-01-01                   2100-12-31
+AG                    AG-SUMMER PROGRAM                                                                                  1994-03-01                   2100-12-31
+AI                    AI-SUPERVISORY INSPECTION CAREER PATH, PUBLIC HEALTH HUMANRESOURCES SYSTEM DEM                     2009-05-01                   2100-12-31
+AJ                    AJ-ADMINISTRATIVE JUDGES                                                                           1992-01-01                   2100-12-31
+AL                    AL-ADMINISTRATIVE LAW JUDGES                                                                       1991-03-01                   2100-12-31
+AO                    AO-MANAGEMENT SUPPORT CAREER PATH, PUBLIC HEALTH HUMAN RESOURCES SYSTEM DEMONS                     2009-05-01                   2100-12-31
+AP                    AP-ADMINISTRATIVE, PROFESSIONAL, AND SCIENTIFIC CAREER PATH, PUBLIC HEALTH HUM                     2009-05-01                   2100-12-31
+AS                    AS-SCIENTIFIC AND TECHNICAL SUPPORT CAREER PATH, PUBLIC HEALTH HUMAN RESOURCES                     2009-05-01                   2100-12-31
+AT                    AT-FEDERAL AVIATION ADMINISTRATION AIR TRAFFIC CONTROLLER COMPENSATION PLAN                        1998-07-01                   2100-12-31
+BB                    BB-NONSUPERVISORY - NEGOTIATED PAY EMPLOYEES                                                       1981-08-01                   2100-12-31
+BL                    BL-LEADER - NEGOTIATED PAY EMPLOYEES                                                               1981-08-01                   2100-12-31
+BP                    BP-PRINTING AND LITHOGRAPHIC - NEGOTIATED PAY EMPLOYEES                                            1981-08-01                   2100-12-31
+BS                    BS-SUPERVISORY - NEGOTIATED PAY EMPLOYEES                                                          1981-08-01                   2100-12-31
+CA                    CA-BOARD OF CONTRACT APPEALS                                                                       1991-03-01                   2100-12-31
+CB                    CB-FDIC WAGE GRADE NON-SUPERVISORY PAY SCHEDULES ONLY                                              2000-08-01                   2100-12-31
+CE                    CE-CONTRACT EDUCATION--YEAR LONG                                                                   1980-05-01                   2100-12-31
+CF                    CF-FDIC WAGE GRADE SUPERVISORY PAY SCHEDULES ONLY                                                  2000-08-01                   2100-12-31
+CG                    CG-CORPORATE GRADED                                                                                1989-07-01                   2100-12-31
+CH                    CH-FDIC WAGE GRADE SUPERVISORY SPECIAL SCHEDULE PRINTING EMPLOYEES ONLY                            2000-08-01                   2100-12-31
+CI                    CI-FDIC WAGE GRADE LEADER SPECIAL SCHEDULE PRINTING EMPLOYEES ONLY                                 2000-08-01                   2100-12-31
+CJ                    CJ-FDIC WAGE GRADE NON-SUPERVISORY SPECIAL SCHEDULE PRINTING EMPLOYEES ONLY                        2000-08-01                   2100-12-31
+CL                    CL-FDIC WAGE GRADE LEADER PAY SCHEDULES ONLY                                                       2000-08-01                   2100-12-31
+CM                    CM-FDIC SUPERVISORY AND MANAGERIAL POSITIONS BELOW THE EXECUTIVE LEVEL ONLY                        2003-01-01                   2100-12-31
+CN                    CN-BUREAU OF CONSUMER FINANCIAL PROTECT(CFPB) INDEPENDENT AGCY WITHIN THE FED                      2010-12-01                   2100-12-31
+CT                    CT-COMMODITY FUTURES TRADING COMMISSION POSITIONS PREVIOUSLY DEFINED UNDER PAY                     2003-04-01                   2100-12-31
+CU                    CU-CREDIT UNION EMPLOYEES                                                                          1990-10-01                   2100-12-31
+CX                    CX-SENIOR EXPERT POSITIONS IN THE FEDERAL DEPOSIT INSURANCE CORPORATION                            2005-09-01                   2100-12-31
+CY                    CY-CONTRACT EDUCATION--SCHOOL YEAR                                                                 1980-05-01                   2100-12-31
+DA                    DA-DEMONSTRATION ADMINISTRATIVE                                                                    1990-01-01                   2100-12-31
+DB                    DB-DEMONSTRATION ENGINEERS AND SCIENTISTS                                                          2001-01-01                   2100-12-31
+DE                    DE-DEMONSTRATION ENGINEERS AND SCIENTISTS TECHNICIANS                                              2001-01-01                   2100-12-31
+DG                    DG-DEMONSTRATION GENERAL                                                                           2001-01-01                   2100-12-31
+DJ                    DJ-DEMONSTRATION ADMINISTRATIVE                                                                    2001-01-01                   2100-12-31
+DK                    DK-DEMONSTRATION GENERAL SUPPORT                                                                   2001-01-01                   2100-12-31
+DL                    DL-APPLIED SKILLS DEMONSTRATION PROJECT                                                            1997-06-01                   2004-06-30
+DN                    DN-DEFENSE NUCLEAR FACILITIES SAFETY BOARD EXCEPTED SERVICE EMPLOYEES                              1991-08-01                   2100-12-31
+DO                    DO-BUSINESS MANAGEMENT AND PROFESSIONAL CAREER PATH, AIR FORCE RESEARCH LABORA                     2009-09-01                   2100-12-31
+DP                    DP-DEMONSTRATION PROFESSIONAL                                                                      1990-01-01                   2100-12-31
+DQ                    DQ-DEMONSTRATION ARTISAN LEADER                                                                    1996-11-01                   2100-12-31
+DR                    DR-DEMONSTRATIION AIR FORCE SCIENTIST AND ENGINEER                                                 1996-12-01                   2100-12-31
+DS                    DS-DEMONSTRATION SPECIALIST                                                                        1990-01-01                   2100-12-31
+DT                    DT-DEMONSTRATION TECHNICIAN                                                                        2001-01-01                   2100-12-31
+DU                    DU-MISSION SUPPORT CAREER PATH, AIR FORCE RESEARCH LABORATORY                                      2009-09-01                   2100-12-31
+DV                    DV-DEMONSTRATION ARTISAN                                                                           1996-11-01                   2100-12-31
+DX                    DX-TECHNICIAN CAREER PATH, AIR FORCE RESEARCH LABORATORY                                           2009-09-01                   2100-12-31
+DZ                    DZ-DEMONSTRATION ARTISAN SUPERVISOR                                                                1996-11-01                   2100-12-31
+ED                    ED-EXPERT (5 U.S.C. 3109)                                                                          1978-10-01                   2100-12-31
+EE                    EE-EXPERT (OTHER)                                                                                  1979-02-01                   2100-12-31
+EF                    EF-CONSULTANT (5 U.S.C. 3109)                                                                      1978-10-01                   2100-12-31
+EG                    EG-CONSULTANT (OTHER)                                                                              1979-02-01                   2100-12-31
+EH                    EH-ADVISORY COMMITTEE MEMBER (5 U.S.C. 3109)                                                       1978-10-01                   2100-12-31
+EI                    EI-ADVISORY COMMITTEE MEMBER (OTHER)                                                               1979-02-01                   2100-12-31
+EJ                    EJ-THE DEPARTMENT OF ENERGY ORGANIZATION ACT EXCEPTED SERVICE                                      1995-03-01                   2100-12-31
+EK                    EK-THE NATIONAL DEFENSE AUTHORIZATION ACT OF 1995 DEPARTMENT OF ENERGY EXCEPTE                     1995-03-01                   2100-12-31
+EL                    EL-NON-EXECUTIVE POSITIONS AT THE FEDERAL HOUSING FINANCE AGENCY                                   2009-07-01                   2100-12-31
+EM                    EM-FDIC EXECUTIVE-LEVEL POSITIONS ONLY                                                             2003-01-01                   2100-12-31
+EN                    EN-NATIONAL NUCLEAR SECURITY ADMINISTRATION EXCEPTED SERVICE ONLY                                  2000-08-01                   2100-12-31
+EO                    EO-FDIC EXECUTIVE PAY                                                                              1988-09-01                   2100-12-31
+EQ                    EQ-EXCEPTIONALLY WELL QUALIFIED INDIVIDUALS APPOINTED UNDER SECTION 313 OF DIV                     2014-06-01                   2100-12-31
+ER                    ER-SCIENTIFIC, ENGINEERING & PROFESSONAL PERS OF THE ADV  RESEARCH PROJ AGCY-E                     2011-01-01                   2100-12-31
+ES                    ES-SENIOR EXECUTIVE SERVICE                                                                        1979-07-01                   2100-12-31
+ET                    ET-GENERAL ACCOUNTING OFFICE SENIOR EXECUTIVE SERVICE                                              1992-10-01                   2010-11-30
+ET                    ET-PROGRAM DIRECTOR OF THE ADVANCED RESEARCH PROJECTS     AGENCY-ENGERY                            2011-01-01                   2100-12-31
+EV                    EV-FEDERAL AVIATION ADMINISTRATION EXECUTIVE COMPENSATION PLAN                                     1998-07-01                   2100-12-31
+EX                    EX-EXECUTIVE PAY                                                                                   1972-06-01                   2100-12-31
+EZ                    EZ-PROFESSIONAL ECONOMIST                                                                          1999-03-01                   2100-12-31
+FA                    FA-FOREIGN SERVICE CHIEFS OF MISSION, P.L. 94-464, SECTION 103(1)                                  1972-06-01                   2100-12-31
+FB                    FB-OFFICERS (SIMILAR TO THE SENIOR EXECUTIVE SERVICE)                                              1996-04-01                   2100-12-31
+FC                    FC-FOREIGN COMPENSATION                                                                            1972-06-01                   2100-12-31
+FD                    FD-FOREIGN DEFENSE                                                                                 1972-06-01                   2100-12-31
+FE                    FE-SENIOR FOREIGN SERVICE                                                                          1981-02-01                   2100-12-31
+FF                    FF-NONSUPERVISORY PRODUCTION FACILITATORS                                                          1996-04-01                   2100-12-31
+FG                    FG-SIMILAR TO THE GENERAL SCHEDULE                                                                 1996-04-01                   2100-12-31
+FH                    FH-STATE DEPARTMENT FOREIGN SERVICE EMPLOYEES PREVIOUSLY REPORTED UNDER PAY PL                     2006-03-01                   2100-12-31
+FJ                    FJ-OFFICIALS ON NONCAREER APPOINTMENTS                                                             1996-04-01                   2100-12-31
+FL                    FL-WAGE LEADERS (SIMILAR TO THE LEADER PAY SCHEDULE UNDER THE FEDERAL WAGE SYS                     1996-04-01                   2100-12-31
+FM                    FM-FORMER PERFORMANCE MANAGEMENT AND RECOGNITION SERVICE EMPLOYEES                                 1996-04-01                   2100-12-31
+FN                    FN-SUPERVISORY PRODUCTION FACILITATORS                                                             1996-04-01                   2100-12-31
+FO                    FO-FOREIGN SERVICE OFFICERS                                                                        1981-02-01                   2100-12-31
+FP                    FP-FOREIGN SERVICE PERSONNEL                                                                       1981-02-01                   2100-12-31
+FS                    FS-WAGE SUPERVISORS (SIMILAR TO THE SUPERVISORY PAY SCHEDULE UNDER THE FEDERAL                     1996-04-01                   2100-12-31
+FT                    FT-SENIOR TECHNICAL AND SENIOR LEVEL (SIMILAR TO THE SENIOR-LEVEL AND SCIENTIF                     1996-04-01                   2100-12-31
+FV                    FV-FEDERAL AVIATION ADMINISTRATION CORE COMPENSATION PLAN                                          1998-03-01                   2100-12-31
+FW                    FW-WAGE GRADE (SIMILAR TO THE NONSUPERVISORY PAY SCHEDULE UNDER THE FEDERAL WA                     1996-04-01                   2100-12-31
+FX                    FX-EXECUTIVES (SIMILAR TO THE SENIOR EXECUTIVE SERVICE)                                            1996-04-01                   2100-12-31
+FZ                    FZ-CONSULAR AGENT                                                                                  1988-07-01                   2006-02-28
+GE                    GE-U.S. GOVERNMENT PRINTING OFFICE EMPLOYEES FORMERLY UNDER PAY PLAN SL (SENIO                     2005-07-01                   2100-12-31
+GG                    GG-GRADES SIMILAR TO GENERAL SCHEDULE                                                              1972-06-01                   2100-12-31
+GH                    GH-GG EMPLOYEES CONVERTED TO THE FORMER PERFORMANCE MANAGEMENT RECOGNITION SYS                     1993-12-01                   2100-12-31
+GI                    GI-U.S. GOVERNMENT PRINTING OFFICE CRIMINAL INVESTIGATORS                                          2005-07-01                   2100-12-31
+GL                    GL-GS EMPLOYEES IN GRADES 3 THROUGH 10 PAID A LAW ENFORCEMENT OFFICER SPECIAL                      2006-01-01                   2100-12-31
+GM                    GM-EMPLOYEES COVERED BY THE PERFORMANCE MANAGEMENT AND RECOGNITION SYSTEM (PMR                     1993-11-01                   2100-12-31
+GN                    GN-NURSING AT THE WARREN G. MAGNUSON CLINICAL CENTER                                               1987-04-01                   2100-12-31
+GP                    GP-GS PHYSICIANS AND DENTISTS PAID MARKET PAY UNDER 38 U.S.C. 7431(C)                              2006-01-01                   2100-12-31
+GR                    GR-GM PHYSICIANS AND DENTISTS PAID MARKET PAY UNDER 38 U.S.C. 7431(C)                              2006-01-01                   2100-12-31
+GS                    GS-GENERAL SCHEDULE                                                                                1972-06-01                   2100-12-31
+HA                    HA-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HB                    HB-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HC                    HC-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HD                    HD-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HE                    HE-DEPARTMENT OF HOMELAND SECURITY EMPLOYEES FORMERLY COVERED BY PAY PLAN ES (                     2006-03-01                   2010-08-31
+HF                    HF-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HF                    HF-EMPLOYEES APPOINTED AND COMPENSATED AS SPECIAL CONSULTANTS UNDER U.S.C 209(                     2013-11-01                   2013-11-30
+HG                    HG-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HG                    HG-SCIENTISTS APPOINTED AS FELLOWS AND COMPENSATED UNDER 42 U.S.C. 209(G).                         2013-11-01                   2013-11-30
+HH                    HH-DEPT OF HOMELAND SEC EMPLOYEES FORMERLY COVERED BY PAY PLANS GG AND GH (GRA                     2006-03-01                   2010-08-31
+HI                    HI-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HJ                    HJ-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HK                    HK-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HL                    HL-DEPARTMENT OF HOMELAND SECURITY EMPLOYEES FORMERLY COVERED BY PAY PLAN SL (                     2006-03-01                   2010-08-31
+HM                    HM-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HN                    HN-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HO                    HO-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HP                    HP-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HQ                    HQ-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HR                    HR-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HS                    HS-DEPARTMENT OF HOMELAND SECURITY EMPLOYEES FORMERLY COVERED BY PAY PLANS GM                      2006-03-01                   2010-08-31
+HT                    HT-DEPARTMENT OF HOMELAND SECURITY EMPLOYEES FORMERLY COVERED BY PAY PLAN ST (                     2006-03-01                   2010-08-31
+HU                    HU-HASKELL INDIAN NATIONS UNIVERSITY DEMONSTRATION PROJECT                                         2001-04-01                   2100-12-31
+HV                    HV-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HW                    HW-DEPARTMENT OF HOMELAND SECURITY EMP FORMERLY COVERED BY PAY PLAN WG (NONSUP                     2006-03-01                   2010-08-31
+HX                    HX-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HY                    HY-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+HZ                    HZ-CODE IS FOR USE BY DHS ONLY.                                                                    2006-10-01                   2010-08-31
+IA                    IA-DEFENSE CIVILIAN INTELLIGENCE PERS. SYS.                                                        2008-01-01                   2100-12-31
+IB                    IB-DEFENSE CIVILIAN INTELLIGENCE PERS. SYS.                                                        2008-01-01                   2100-12-31
+IC                    IC-EMPLOYEES HOLDING INCIDENT MANAGEMENT CADRE OF ON-CALL RESPONSE/RECOVERY EM                     2014-04-01                   2100-12-31
+IE                    IE-SENIOR INTELLIGENCE EXECUTIVE SERVICE (SIES) PROGRAM                                            1993-06-01                   2100-12-31
+IF                    IF-DEFENSE CIVILIAN INTELLIGENCE PERS. SYS.                                                        2008-01-01                   2100-12-31
+IG                    IG-INSPECTORS GENERAL WHOSE RATE OF BASIC PAY IS SET AT LEVEL III OF THE EXECU                     2008-10-01                   2100-12-31
+II                    II-DEFENSE CIVILIAN INTELLIGENCE PERS. SYS.                                                        2008-01-01                   2100-12-31
+IJ                    IJ-IMMIGRATION JUDGE SCHEDULE                                                                      1996-12-01                   2100-12-31
+IK                    IK-DEFENSE CIVILIAN INTELLIGENCE PERS. SYS.                                                        2008-01-01                   2100-12-31
+IL                    IL-DEFENSE CIVILIAN INTELLIGENCE PERS. SYS.                                                        2008-01-01                   2100-12-31
+IM                    IM-EMPLOYEES HOLDING INCIDENT MANAGEMENT POSITIONS AND APPOINTED AND COMPENSAT                     2014-04-01                   2100-12-31
+IP                    IP-SENIOR INTELLIGENCE PROFESSIONAL (SIP) PROGRAM                                                  1993-06-01                   2100-12-31
+IR                    IR-INTERNAL REVENUE SERVICE BROADBAND CLASSIFICATION AND PAY SYSTEM POSITIONS                      2000-05-01                   2100-12-31
+JA                    JA-DEMONSTRATION FBI SCIENTIFIC AND ENGINEERING POSITIONS                                          1998-10-01                   2004-06-30
+JB                    JB-DEMONSTRATION FBI TECHNICAL POSITIONS                                                           1998-10-01                   2004-06-30
+JC                    JC-DEMONSTRATION FBI INTELLIGENCE ANALYST POSITIONS                                                1998-10-01                   2004-06-30
+JD                    JD-DEMONSTRATION FBI LANGUAGE TRANSLATOR POSITIONS                                                 1998-10-01                   2004-06-30
+JE                    JE-DEMONSTRATION FBI MEDICAL POSITIONS                                                             1998-10-01                   2004-06-30
+KA                    KA-KIESS ACT                                                                                       1976-11-01                   2100-12-31
+KB                    KB-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR BOOKBINDERS                                     2003-09-01                   2100-12-31
+KE                    KE-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR ELECTRICIANS                                    2003-09-01                   2100-12-31
+KG                    KG-NON-CRAFT NON-SUPERVISORY                                                                       1979-04-01                   2100-12-31
+KI                    KI-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR COMPOSITORS                                     2003-09-01                   2100-12-31
+KJ                    KJ-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR MACHINISTS                                      2003-09-01                   2100-12-31
+KL                    KL-NON-CRAFT - LEADER                                                                              1979-04-01                   2100-12-31
+KM                    KM-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRESSPERSONS                                    2003-09-01                   2100-12-31
+KN                    KN-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR OFFSET STRIPPERS                                2003-09-01                   2100-12-31
+KO                    KO-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR OFFSET PLATEMAKER STRIPPERS                     2003-09-01                   2100-12-31
+KP                    KP-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR ENGINEERING JOURNEYPERSONS                      2003-09-01                   2100-12-31
+KS                    KS-NON-CRAFT - SUPERVISORY                                                                         1979-04-01                   2100-12-31
+KT                    KT-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRINTING PLANT WORKERS, 80%                     2003-09-01                   2100-12-31
+KU                    KU-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRINTING PLANT WORKERS, 85%                     2003-09-01                   2100-12-31
+KV                    KV-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRINTING PLANT WORKERS, 90%                     2003-09-01                   2100-12-31
+KW                    KW-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRINTING PLANT WORKERS, 95%                     2003-09-01                   2100-12-31
+KX                    KX-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRINTING PLANT WORKERS, 100                     2003-09-01                   2100-12-31
+KY                    KY-GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRINTING PLANT WORKERS, EQU                     2003-09-01                   2100-12-31
+LE                    LE-UNITED STATES SECRET SERVICE UNIFORM DIVISION                                                   1977-06-01                   2100-12-31
+LG                    LG-LIQUIDATION GRADED                                                                              1989-02-01                   2100-12-31
+LL                    LL-EXECUTIVES AT THE FEDERAL HOUSING FINANCE AGENCY                                                2009-07-01                   2100-12-31
+MA                    MA-MILK MARKETING                                                                                  1972-06-01                   2100-12-31
+MC                    MC-EMPLOYEES OF THE MILLENNIUM CHALLENGE CORPORATION APPOINTED UNDER PUBLIC LA                     2004-05-01                   2100-12-31
+MG                    MG-OMHAR COMPENSATION PLAN                                                                         1998-09-01                   2007-07-31
+ML                    ML-SUPERVISORS AND MANAGERS OF THE NATIONAL CREDIT UNION ADMINISTRATION                            2009-11-01                   2100-12-31
+MS                    MS-OMHAR EXECUTIVE COMPENSATION PLAN                                                               1998-09-01                   2100-12-31
+MX                    MX-OMHAR EXECUTIVE DIRECTOR COMPENSATION PLAN                                                      1998-09-01                   2100-12-31
+NA                    NA-NONAPPROPRIATED FUNDS - NONSUPERVISORY AND NONLEADER - FEDERAL WAGE SYSTEM                      1973-06-01                   2100-12-31
+NB                    NB-OFFICE OF THE COMPTROLLER OF THE CURRENCY ONLY                                                  2000-06-01                   2100-12-31
+NC                    NC-NRL ADMINISTRATIVE SUPPORT                                                                      1998-10-01                   2010-02-28
+NC                    NC-ADMINISTRATIVE SUPPORT                                                                          2010-03-01                   2100-12-31
+ND                    ND-DEMONSTRATION SCIENTIFIC AND ENGINEERING                                                        1996-11-01                   2100-12-31
+NF                    NF-EMPLOYEES IN THE NATIONAL NUCLEAR SECURITY ADMINISTRATION'S FUTURE LEADERS                      2007-08-01                   2100-12-31
+NG                    NG-DEMONSTRATION GENERAL SUPPORT                                                                   1996-11-01                   2100-12-31
+NH                    NH-BUSINESS MANAGEMENT AND TECHNICAL MANAGEMENT PROFESSIONAL                                       1998-03-01                   2100-12-31
+NJ                    NJ-TECHNICAL MANAGEMENT SUPPORT                                                                    1998-03-01                   2100-12-31
+NK                    NK-ADMINISTRATION SUPPORT                                                                          1998-03-01                   2100-12-31
+NL                    NL-NONAPPROPRIATED FUNDS - LEADER - FEDERAL WAGE SYSTEM                                            1973-06-01                   2100-12-31
+NM                    NM-SUPERVISORS AND MANAGERS                                                                        2010-03-01                   2100-12-31
+NN                    NN-EMPLOYEES IN THE NATIONAL NUCLEAR SECURITY ADMINISTRATION'S ENGINEERING AND                     2007-08-01                   2100-12-31
+NO                    NO-NRL ADMINISTRATIVE SPECIALIST/PROFESSIONAL                                                      1998-10-01                   2010-02-28
+NO                    NO-ADMINISTRATIVE SPECIALIST/PROFESSIONAL                                                          2010-03-01                   2100-12-31
+NP                    NP-NRL SCIENCE AND ENGINEERING PROFESSIONAL                                                        1998-10-01                   2010-02-28
+NP                    NP-SCIENCE AND ENGINEERING PROFESSIONAL                                                            2010-03-01                   2100-12-31
+NQ                    NQ-EMPLOYEES IN THE NATIONAL NUCLEAR SECUIRTY ADMINISTRATION'S PROFESSIONAL, T                     2007-08-01                   2100-12-31
+NR                    NR-NRL SCIENCE AND ENGINEERING TECHNICAL                                                           1998-10-01                   2010-02-28
+NR                    NR-SCIENCE AND ENGINEERING TECHNICAL                                                               2010-03-01                   2100-12-31
+NS                    NS-NONAPPROPRIATED FUNDS - SUPERVISORY - FEDERAL WAGE SYSTEM                                       1973-06-01                   2100-12-31
+NT                    NT-DEMONSTRATION ADMINISTRATIVE AND TECHNICAL                                                      1996-11-01                   2100-12-31
+NU                    NU-EMPLOYEES IN THE NATIONAL NUCLEAR SECURITY ADMINISTRATION'S TECHNICIAN AND                      2007-08-01                   2100-12-31
+NV                    NV-EMPLOYEES IN THE NATIONAL NUCLEAR SECURITY ADMINISTRATION'S NUCLEAR MATERIA                     2007-08-01                   2100-12-31
+NX                    NX- EXECUTIVE-LEVEL AND MANAGERIAL POSITIONS IN THE CORPORATION FOR NATIONAL A                     1995-10-01                   2100-12-31
+NY                    NY-ALL OTHER POSITIONS IN THE CORPORATION FOR NATIONAL AND COMMUNITY SERVICE,                      1995-10-01                   2100-12-31
+NZ                    NZ-NATIONAL ZOOLOGICAL PARK POLICE                                                                 2004-10-01                   2100-12-31
+OE                    OE-EXECUTIVES OF THE OFFICE OF FEDERAL HOUSING ENTERPRISE OVERSIGHT                                2007-04-01                   2100-12-31
+OF                    OF-OFFICE OF FEDERAL HOUSING ENTERPRISE OVERSIGHT                                                  2004-04-01                   2100-12-31
+OG                    OG-EMPLOYEES IN CLASSIFIED NON-FEDERAL (TRUST) NONSUPERVISORY PAY SCHEDULES AT                     2012-05-01                   2100-12-31
+OL                    OL-EMPLOYEES IN CLASSIFIED NON-FEDERAL (TRUST) LEADER PAY SCHEDULES AT THE SMI                     2012-05-01                   2100-12-31
+OR                    OR-EMPLOYEES OF THE OFFICE OF FINANCIAL RESEARCH (OFR) WITHIN THE DEPARTMENT O                     2010-09-01                   2100-12-31
+OS                    OS-EMPLOYEES IN CLASSIFIED NON-FEDERAL (TRUST) SUPERVISORY PAY SCHEDULES AT TH                     2012-05-01                   2100-12-31
+PD                    PD-TREASURY DEMONSTRATION PROJECT POSITIONS                                                        1999-10-01                   2100-12-31
+PG                    PG-PRINTING OFFICE GRADES                                                                          1989-08-01                   2100-12-31
+PI                    PI-BANDED POLICE PAY STRUCTURE WITHIN THE DEFENSE CIVILIAN INTELLIGENCE PERSON                     2014-10-01                   2100-12-31
+PJ                    PJ-GOVERNMENT PRINTING OFFICE, AFGE, 12% NIGHT RATE                                                2003-09-01                   2100-12-31
+PP                    PP-GRADED POLICE PAY STRUCTURE WITH THE DEFENSE CIVILIAN INTELLIGENCE PERSONNE                     2014-10-01                   2100-12-31
+PQ                    PQ-GOVERNMENT PRINTING OFFICE, POLICE, DAY RATE                                                    2003-09-01                   2100-12-31
+PU                    PU-GOVERNMENT PRINTING OFFICE, WHITE-COLLAR, 10% NIGHT RATE                                        2003-09-01                   2100-12-31
+PZ                    PZ-GOVERNMENT PRINTING OFFICE, POLICE, 10% NIGHT RATE                                              2003-09-01                   2100-12-31
+RA                    RA-DEPARTMENT OF AGRICULTURE POSITIONS IN THE SENIOR SCIENTIFIC RESEARCH SERVI                     2003-04-01                   2100-12-31
+RE                    RE-MANAGERIAL POSITIONS WITHIN THE SENIOR LEADERSHIP DEMONSTATION PROJECT (SLD                     2002-09-01                   2100-12-31
+RF                    RF-EMPLOYEES APPOINTED AND COMPENSATED AS SPECIAL CONSULTANTS UNDER 42 U.S.C.                      2014-02-01                   2100-12-31
+RG                    RG-SCIENTISTS APPOINTED AS FELLOWS AND COMPENSATED UNDER 42 U.S.C. 209(G). INC                     2014-02-01                   2100-12-31
+RP                    RP-TECHNICAL POSITIONS WITHIN THE SENIOR LEADERSHIP DEMONSTRATION PROJECT (SLD                     2002-09-01                   2100-12-31
+RS                    RS-SENIOR BIOMEDICAL RESEARCH SERVICE                                                              1992-11-01                   2100-12-31
+SK                    SK-SEC EMPLOYEES FORMERLY UNDER THE GS, GM, AND EZ PAY PLANS                                       2002-02-01                   2100-12-31
+SL                    SL-SENIOR LEVEL POSITIONS                                                                          1991-05-01                   2100-12-31
+SN                    SN-SENIOR LEVEL SYSTEM                                                                             1992-01-01                   2100-12-31
+SO                    SO-SEC EMPLOYEES FORMERLY UNDER THE ES PAY PLAN                                                    2002-02-01                   2100-12-31
+SP                    SP-PARK POLICE                                                                                     1972-06-01                   2100-12-31
+SQ                    SQ-PHYSICIANS/DENTISTS UNDER SCI & PROF (ST) PAY SYSTEM WHO RECEIVE MARKET PAY                     2006-06-01                   2100-12-31
+SR                    SR-STATUTORY RATES NOT ELSEWHERE SPECIFIED                                                         1972-06-01                   2100-12-31
+SS                    SS-SENIOR STAFF POSITIONS                                                                          1990-04-01                   2100-12-31
+ST                    ST-SCIENTIFIC AND PROFESSIONAL                                                                     1972-06-01                   2100-12-31
+SV                    SV-TRANSPORTATION SECURITY ADMINISTRATION EMPLOYEES OTHER THAN EXECUTIVES                          2002-02-01                   2100-12-31
+SW                    SW-TRANSPORTATION SECURITY ADMINISTRATION EXECUTIVES                                               2002-02-01                   2100-12-31
+TF                    TF-FEDERAL HOUSING FINANCE BOARD EXECUTIVE LEVEL                                                   1990-12-01                   2011-02-28
+TF                    TF-FEDERAL HOUSING FINANCE AGENCY                                                                  2011-03-01                   2100-12-31
+TG                    TG-OFFICE OF THRIFT SUPERVISION SALARY SCHEDULE                                                    1991-03-01                   2100-12-31
+TM                    TM-FEDERAL HOUSING FINANCE BOARD MERIT PAY                                                         1991-01-01                   2100-12-31
+TP                    TP-TEACHING POSITIONS                                                                              1986-08-01                   2100-12-31
+TR                    TR-POLICE FORCES OF THE U.S. MINT AND BUREAU OF ENGRAVING AND PRINTING                             1991-01-01                   2100-12-31
+TS                    TS-FEDERAL HOUSING FINANCE BOARD STEP SYSTEM                                                       1990-12-01                   2100-12-31
+VC                    VC-CANTEEN SERVICE                                                                                 1972-06-01                   2100-12-31
+VE                    VE-VETERANS CANTEEN SERVICE EXECUTIVES ONLY                                                        2000-05-01                   2100-12-31
+VG                    VG-CLERICAL AND ADMINISTRATIVE SUPPORT                                                             1992-01-01                   2100-12-31
+VH                    VH-PROFESSIONAL, ADMINISTRATIVE, AND MANAGERIAL                                                    1992-01-01                   2100-12-31
+VM                    VM-MEDICAL AND DENTAL                                                                              1972-06-01                   2100-12-31
+VN                    VN-NURSING                                                                                         1972-06-01                   2100-12-31
+VP                    VP-CLINICAL PODIATRISTS AND OPTOMETRISTS SCHEDULE                                                  1977-02-01                   2100-12-31
+WA                    WA-NAVIGATIONAL LOCK AND DAM OPERATIONS AND MAINTENANCE IN U.S. ARMY CORPS OF                      1977-07-01                   2100-12-31
+WB                    WB-WAGE POSITIONS UNDER THE FEDERAL WAGE SYSTEM NOT OTHERWISE DESIGNATED                           1972-06-01                   2100-12-31
+WD                    WD-PRODUCTION FACILITATING NON-SUPERVISORY - FEDERAL WAGE SYSTEM                                   1972-06-01                   2100-12-31
+WE                    WE-CURRENCY MANUFACTURING                                                                          1972-06-01                   2100-12-31
+WG                    WG-NONSUPERVISORY PAY SCHEDULES - FEDERAL WAGE SYSTEM                                              1972-06-01                   2100-12-31
+WJ                    WJ-HOPPER DREDGE SCHEDULE--FEDERAL WAGE SYSTEM                                                     1996-07-01                   2100-12-31
+WK                    WK-HOPPER DREDGE SCHEDULE, NONSUPERVISORY                                                          1972-06-01                   2100-12-31
+WL                    WL-LEADER PAY SCHEDULE - FEDERAL WAGE SYSTEM                                                       1972-06-01                   2100-12-31
+WM                    WM-MARITIME PAY SCHEDULES--5 U.S.C. 5348                                                           1972-06-01                   2100-12-31
+WN                    WN-PRODUCTION FACILITATING SUPERVISORY FEDERAL WAGE SYSTEM                                         1972-06-01                   2100-12-31
+WO                    WO-NAVIGATIONAL LOCK AND DAM OPERATION AND MAINTENANCE POSITIONS IN THE U.S. A                     1977-07-01                   2100-12-31
+WQ                    WQ-AIRCRAFT, ELECTRONIC EQUIPMENT, AND OPTICAL INSTRUMENT OVERHAUL AND REPAIR                      1976-09-01                   2100-12-31
+WR                    WR-AIRCRAFT, ELECTRONIC EQUIPMENT, AND OPTICAL INSTRUMENT OVERHAUL AND REPAIR                      1976-09-01                   2100-12-31
+WS                    WS-SUPERVISORY PAY SCHEDULES - FEDERAL WAGE SYSTEM                                                 1972-06-01                   2100-12-31
+WT                    WT-APPRENTICES AND SHOP TRAINEES - FEDERAL WAGE SYSTEM                                             1975-08-01                   2100-12-31
+WU                    WU-AIRCRAFT, ELECTRONIC EQUIPMENT, AND OPTICAL INSTRUMENT OVERHAUL AND REPAIR                      1976-07-01                   2100-12-31
+WY                    WY-NAVIGATIONAL LOCK & DAM OPERATION & MAINTENANCE POSITIONS IN U.S. ARMY CORP                     1977-07-01                   2100-12-31
+XA                    XA-SPECIAL OVERLAP AREA RATE SCHEDULE - NONSUPERVISORY - FEDERAL WAGE SYSTEM                       1977-04-01                   2100-12-31
+XB                    XB-SPECIAL OVERLAP AREA RATE SCHEDULE - LEADER - FEDERAL WAGE SYSTEM                               1977-04-01                   2100-12-31
+XC                    XC-SPECIAL OVERLAP AREA RATE SCHEDULE - SUPERVISORY - FEDERAL WAGE SYSTEM                          1977-04-01                   2100-12-31
+XD                    XD-NONSUPERVISORY PRODUCTION FACILITATING SPECIAL SCHEDULE PRINTING EMPLOYEE                       1982-01-01                   2100-12-31
+XE                    XE-SUPERVISORS OF NEGOTIATED RATE EMPLOYEES--FEDERAL WAGE SYSTEM                                   1994-12-01                   2100-12-31
+XF                    XF-FLOATING PLANT SCHEDULE (OTHER THAN HOPPER DREDGE) SCHEDULE--NONSUPERVISORY                     1992-09-01                   2100-12-31
+XG                    XG-FLOATING PLANT (OTHER THAN HOPPER DREDGE) SCHEDULE--LEADER--FEDERAL WAGE SY                     1992-09-01                   2100-12-31
+XH                    XH-FLOATING PLANT (OTHER THAN HOPPER DREDGE) SCHEDULE--FEDERAL WAGE SYSTEM                         1996-07-01                   2100-12-31
+XI                    XI-NON-SUPERVISORY SCHEDULE - PREVAILING RATE SYSTEM                                               2004-07-01                   2100-12-31
+XJ                    XJ-LEADER SCHEDULE - PREVAILING RATE SYSTEM                                                        2004-07-01                   2100-12-31
+XK                    XK-SUPERVISORY SCHEDULE - PREVAILING RATE SYSTEM                                                   2004-07-01                   2100-12-31
+XL                    XL-LEADER SPECIAL SCHEDULE PRINTING EMPLOYEE                                                       1982-01-01                   2100-12-31
+XN                    XN-SUPERVISORY PRODUCTION FACILITATING SPECIAL SCHEDULE PRINTING EMPLOYEE                          1982-01-01                   2100-12-31
+XP                    XP-NONSUPERVISORY SPECIAL SCHEDULE PRINTING EMPLOYEE                                               1982-01-01                   2100-12-31
+XR                    XR-NON-SUPERVISORY U.S. ARMY CORPS OF ENGINEERS PREVAILING RATE SYSTEM POSITIO                     2015-07-01                   2100-12-31
+XS                    XS-SUPERVISORY SPECIAL SCHEDULE PRINTING EMPLOYEE                                                  1982-01-01                   2100-12-31
+XT                    XT-LEADER U.S. ARMY CORPS OF ENGINEERS PREVAILING RATE SYSTEM POSITIONS AT THE                     2015-07-01                   2100-12-31
+XU                    XU-SUPERVISORY U.S. ARMY CORPS OF ENGINEERS PREVAILING RATE SYSTEM POSITIONS A                     2015-07-01                   2100-12-31
+XW                    XW-NON-SUPRV DOD NON-APPR FUND POSITIONS IN THE AUTOMOTIVEMECHANIC 5823 SERIES                     2011-03-01                   2100-12-31
+XY                    XY-LEADER DOD NON-APPR FUND POSITIONS IN THE AUTOMOTIVE   MECHANIC 5823 SERIES                     2011-03-01                   2100-12-31
+XZ                    XZ-SUPERVISORY DOD NON-APPR FUND POSITIONS IN AUTOMOTIVE  MECHANIC 5823 SERIES                     2011-03-01                   2100-12-31
+YA                    YA-STANDARD CAREER GROUP - PROFESSIONAL/ANALYTICAL PAY SCHEDULE                                    2004-02-01                   2100-12-31
+YB                    YB-STANDARD CAREER GROUP - TECHNICIAN/SUPPORT PAY SCHEDULE                                         2004-02-01                   2100-12-31
+YC                    YC-STANDARD CAREER GROUP - SUPERVISOR/MANAGER PAY SCHEDULE                                         2004-02-01                   2100-12-31
+YD                    YD-SCIENCE AND ENGINEERING CAREER GROUP - PROFESSIONAL PAY SCHEDULE                                2004-02-01                   2100-12-31
+YE                    YE-SCIENCE AND ENGINEERING CAREER GOUP - TECHNICIAN/SUPPORT PAY SCHEDULE                           2004-02-01                   2100-12-31
+YF                    YF-SCIENCE AND ENGINEERING CAREER GROUP - SUPERVISOR/MANAGER PAY SCHEDULE                          2004-02-01                   2100-12-31
+YG                    YG-MEDICAL CAREER GROUP - PHYSICIAN/DENTIST PAY SCHEDULE                                           2004-02-01                   2100-12-31
+YH                    YH-MEDICAL CAREER GROUP - PROFESSIONAL PAY SCHEDULE                                                2004-02-01                   2100-12-31
+YI                    YI-MEDICAL CAREER GROUP - TECHNICIAN/SUPPORT PAY SCHEDULE                                          2004-02-01                   2100-12-31
+YJ                    YJ-MEDICAL CAREER GROUP - SUPERVISOR/MANAGER PAY SCHEDULE                                          2004-02-01                   2100-12-31
+YK                    YK-INVESTIGATIVE AND PROTECTIVE CAREER GROUP - INVESTIGATIVE PAY SCHEDULE                          2004-02-01                   2100-12-31
+YL                    YL-INVESTIGATIVE AND PROTECTIVE CAREER GROUP - FIRE PROTECTION PAY SCHEDULE                        2004-02-01                   2100-12-31
+YM                    YM-INVESTIGATIVE AND PROTECTIVE CAREER GROUP - POLICE/SECURITY GUARD PAY SCHED                     2004-02-01                   2100-12-31
+YN                    YN-INVESTIGATIVE AND PROTECTIVE CAREER GROUP - SUPERVISOR/MANAGER PAY SCHEDULE                     2004-02-01                   2100-12-31
+YO                    YO-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YP                    YP-STANDARD CAREER GROUP - STUDENT EDUCATIONAL EMPLOYMENT PROGRAM PAY SCHEDULE                     2004-02-01                   2100-12-31
+YQ                    YQ-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YR                    YR-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YS                    YS-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YT                    YT-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YU                    YU-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YV                    YV-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YW                    YW-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YX                    YX-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YY                    YY-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+YZ                    YZ-CODE IS FOR USE BY THE DEPARTMENTS OF THE AIR FORCE, ARMY, DEFENSE, AND NAV                     2004-02-01                   2100-12-31
+ZA                    ZA-ADMINISTRATIVE                                                                                  1990-01-01                   2100-12-31
+ZP                    ZP-SCIENTIFIC AND ENGINEERING PROFESSIONAL                                                         1990-01-01                   2100-12-31
+ZS                    ZS-ADMINISTRATIVE SUPPORT                                                                          1990-01-01                   2100-12-31
+ZT                    ZT-SCIENTIFIC AND ENGINEERING TECHNICIAN                                                           1990-01-01                   2100-12-31
+ZZ                    ZZ-NONAPPLICABLE                                                                                   1972-06-01                   2100-12-31

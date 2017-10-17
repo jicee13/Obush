@@ -1,0 +1,13 @@
+Type of Appointment Codes                   Type of Appointment Translations
+10                                          CAREER (COMPETITIVE SERVICE PERMANENT)
+15                                          CAREER-CONDITIONAL (COMPETITIVE SERVICE PERMANENT)
+20                                          NONPERMANENT (COMPETITTIVE SERVICE NONPERMANENT)
+30                                          SCHEDULE A (EXCEPTED SERVICE PERMANENT)
+32                                          SCHEDULE B (EXCEPTED SERVICE PERMANENT)
+35                                          SCHEDULE D (EXCEPTED SERVICE PERMANENT)
+38                                          OTHER (EXCEPTED SERVICE PERMANENT)
+40                                          SCHEDULE A (EXCEPTED SERVICE NONPERMANENT)
+42                                          SCHEDULE B (EXCEPTED SERVICE NONPERMANENT)
+45                                          SCHEDULE D (EXCEPTED SERVICE NONPERMANENT)
+48                                          OTHER (EXCEPTED SERVICE NONPERMANENT)
+50                                          CAREER (SENIOR EXECUTIVE SERVICE PERMANENT)

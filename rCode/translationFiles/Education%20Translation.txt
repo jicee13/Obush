@@ -1,0 +1,25 @@
+Ed. Level Code           Education Level Translation
+                          -No Data Reported                                                            
+*                        *-Invalid                                                                     
+01                       01-NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE           
+02                       02-ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL                               
+03                       03-SOME HIGH SCHOOL - DID NOT COMPLETE                                        
+04                       04-HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY                         
+05                       05-TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE                           
+06                       06-TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIV
+07                       07-SOME COLLEGE - LESS THAN ONE YEAR                                          
+08                       08-ONE YEAR COLLEGE                                                           
+09                       09-TWO YEARS COLLEGE                                                          
+10                       10-ASSOCIATE DEGREE                                                           
+11                       11-THREE YEARS COLLEGE                                                        
+12                       12-FOUR YEARS COLLEGE                                                         
+13                       13-BACHELOR'S DEGREE                                                          
+14                       14-POST-BACHELOR'S                                                            
+15                       15-FIRST PROFESSIONAL                                                         
+16                       16-POST-FIRST PROFESSIONAL                                                    
+17                       17-MASTER'S DEGREE                                                            
+18                       18-POST-MASTER'S                                                              
+19                       19-SIXTH-YEAR DEGREE                                                          
+20                       20-POST-SIXTH YEAR                                                            
+21                       21-DOCTORATE DEGREE                                                           
+22                       22-POST-DOCTORATE                                                             

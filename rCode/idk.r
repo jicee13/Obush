@@ -93,6 +93,67 @@ baptize <- function(fileName, dat_header, agency_trans_table, education_trans_ta
   }
 
 
+
+  # using this function for Project 2 -- LOOK HERE --
+baptizePartTwo <- function(file_name, dat_header, agency_trans_table, education_trans_table, state_trans_table, occ_trans_table) {
+    dat_raw <- readLines(file_name)
+
+    # apply headers
+    df <- t(sapply(dat_raw, FUN = function(x) trimws(substring(x, dat_header[,2], dat_header[,3]))))
+    dimnames(df) <- NULL
+    df <- as.data.frame(df)
+    colnames(df) <- dat_header[,1]
+
+    # remove columns
+    to_save <- c("Agency","Station","Age","Education","LOS",
+                 "Category","Pay", "SupervisoryStatus","Occupation")
+    df <-df[,to_save]
+
+    df$Station <- replace(df$Station, df$Station == "#########" |
+                          df$Station == "*********", NA)
+    df$Age <- replace(df$Age, df$Age == "UNSP", NA)
+    df$Education <- replace(df$Education, df$Education == "" |
+                            df$Education == "*" | df$Education == "**", NA)
+    df$LOS <- replace(df$LOS, df$LOS == "UNSP", NA)
+    print('made it here')
+    df$Occupation <- replace(df$Occupation, df$Occupation == "" |
+                             df$Occupation == "****", NA)
+    df$Category <- replace(df$Category, df$Category == "" |
+                           df$Category == "*" | df$Category == "**", NA)
+    df$SupervisoryStatus <- replace(df$SupervisoryStatus,
+                                    df$SupervisoryStatus == "" |
+                                    df$SupervisoryStatus == "*" |
+                                    df$SupervisoryStatus == "**", NA)
+
+    # make numeric fields numeric
+    df$Pay <- as.numeric(as.character(df$Pay))
+
+    # use state encoding in station
+    df$Station <- sapply(df$Station, FUN = function(x)
+        as.integer(substring(x, 1,2)))
+
+    # add agency name
+    m <- match(df$Agency, agency_trans_table$agency_ID)
+    df$AgencyName <-  agency_trans_table$agency_name[m]
+
+    # add education name
+    m <- match(df$Education, education_trans_table$education_ID)
+    df$EducationName <-  education_trans_table$education_name[m]
+
+    # add state name
+    m <- match(df$Station, state_trans_table$state_ID)
+    df$States <-  state_trans_table$state_name[m]
+
+    # add occupation name
+    m <- match(df$Occupation, occ_trans_table$occ_ID)
+    df$OccTrans <-  occ_trans_table$occ_name[m]
+
+    return(df)
+}
+
+
+
+
 generalPath = "/Volumes/Seagate Backup Plus Drive/Data Mining/opm-federal-employment-data/data/"
 
 
@@ -166,17 +227,31 @@ file.names <- dir(path, pattern =".txt")
 # Strings to be replaced
 trash = c("#########","UNSP","*","**","*********")
 
-yearsIWant = c(2005:2012)
+
+# Specific years I am saving to look at
+yearsIWant = c(2001, 2005, 2009, 2013)
 
 dat_header <- read.csv("/Users/jmiller/Projects/dataMining/projectOne/rCode/headers.csv", header = TRUE)
 
-for(i in 1:length(yearsIWant)){
-  filesThisYear <- grep(yearsIWant[i], file.names, value = TRUE)
-  for(j in 1:length(filesThisYear)){
-    # For every year I specify, pass file name to function and write clean data to CSV
-    print(paste("starting ",filesThisYear[j], sep=""))
-    dataToWrite <- baptize(filesThisYear[j], dat_header, agency_trans_table, education_trans_table, agencyFilter, trash, nsftp_trans_table,payPlan_trans_table, supervisor_trans_table, schdule_trans_table, state_trans_table, appt_trans_table, occ_trans_table)
-    print(paste("writing file for ",filesThisYear[j], sep=""))
-    write.csv(dataToWrite, file = paste(cleanPath, filesThisYear[j], "_PURE.csv", sep = ""))
-  }
+rawPath <- "/Volumes/Seagate Backup Plus Drive/Data Mining/opm-federal-employment-data/data/1973-09-to-2014-06/non-dod/status/"
+data_files <- list.files(path = rawPath)
+non_dod_files <- paste(balls, grep("Status_Non_DoD_20[01][0-9]_[01][3692].txt", data_files, perl = TRUE, value = TRUE), sep = "")
+
+outputPath = "/Users/jmiller/Projects/dataMining/projectOne/rCode/projectTwoClean/"
+
+for(i in yearsIWant){
+  year_files <- grep(paste("Status_Non_DoD_", toString(i), "_[01][3692].txt", sep = ""), non_dod_files, perl = TRUE, value = TRUE)
+  print(i)
+  df <- do.call(rbind, lapply(year_files, dat_header, agency_trans_table, education_trans_table, state_trans_table, occ_trans_table, FUN = baptizePartTwo))
+  write.csv(df, file = paste(outputPath, toString(i), "-clean.csv", sep = ""))
+
+
+  # filesThisYear <- grep(yearsIWant[i], file.names, value = TRUE)
+  # for(j in 1:length(filesThisYear)){
+  #   # For every year I specify, pass file name to function and write clean data to CSV
+  #   print(paste("starting ",filesThisYear[j], sep=""))
+  #   dataToWrite <- baptize(filesThisYear[j], dat_header, agency_trans_table, education_trans_table, agencyFilter, trash, nsftp_trans_table,payPlan_trans_table, supervisor_trans_table, schdule_trans_table, state_trans_table, appt_trans_table, occ_trans_table)
+  #   print(paste("writing file for ",filesThisYear[j], sep=""))
+  #   write.csv(dataToWrite, file = paste(cleanPath, filesThisYear[j], "_PURE.csv", sep = ""))
+  # }
 }

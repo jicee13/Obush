@@ -1,0 +1,24 @@
+Occupation Code         Occupation Translation
+00			Miscellaneous Occupations Group
+01			Social Science, Psychology, and Welfare Group			
+02			Human Resources Management Group
+03			General Administrative, Clerical, and Office Services Group
+04			Natural Resources Management and Biological Sciences Group
+05			Accounting and Budget Group
+06			Medical, Hospital, Dental, and Public Health Group
+07			Veterinary Medical Science Group
+08			Engineering and Architecture Group
+09			Legal and Kindred Group
+10			Information and Arts Group
+11			Business and Industry Group
+12			Copyright, Patent, and Trademark Group
+13			Physical Sciences Group
+14			Library and Archives Group
+15			Mathematics and Statistics Group
+16			Equipment, Facilities, and Services Group
+17			Education Group
+18			Inspection, Investigation, Enforcement, and Compliance Group
+19			Quality Assurance, Inspection, and Grading Group
+20			Supply Group
+21			Transportation Group
+22			Information Technology Group

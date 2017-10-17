@@ -1,0 +1,7 @@
+Supervisory Status Code           Supervisory Status Translations
+2                                 SUPERVISOR OR MANAGER
+4                                 SUPERVISOR (CSRA)
+5                                 MANAGEMENT OFFICIAL (CSRA)
+6                                 LEADER
+7                                 TEAM LEADER
+8                                 ALL OTHER POSITIONS
