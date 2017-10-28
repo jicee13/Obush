@@ -3,8 +3,11 @@ library(rpart)
 library("rpart.plot")
 library(caret)
 library(FSelector)
+library(randomForest)
+library("party")
+library(RWeka)
 
-dat = read.csv("/Users/jmiller/Projects/dataMining/projectOne/rCode/projectTwoClean/2013-clean.csv", header=TRUE, sep=",", nrows=1000000)
+dat = read.csv("/Users/jmiller/Projects/dataMining/projectOne/rCode/projectTwoClean/2001-clean.csv", header=TRUE, sep=",")
 
 dat2 <- dat
 
@@ -37,15 +40,17 @@ myData <- c('Education','Pay','Age','LOS','SupervisoryStatus','Station')
 new <- dat3[myData]
 print(nrow(new))
 print(ncol(new))
-print(summary(new))
+# print(summary(new))
 
 
-# weights <- chi.squared(LOS ~ ., data=new)
-# print(weights)
-#
-# o <- order(weights$attr_importance)
-# dotchart(weights$attr_importance[o], labels = rownames(weights)[o],
-#   xlab = "Importance")
+# Determine the important features for specific attribute.
+# Just specify the attribute in the first argument of chi.squared
+weights <- chi.squared(SupervisoryStatus ~ ., data=new)
+print(weights)
+
+o <- order(weights$attr_importance)
+dotchart(weights$attr_importance[o], labels = rownames(weights)[o],
+  xlab = "Importance")
 
 # print(dim(dat3))
 
@@ -56,26 +61,50 @@ dat4 <- dat3[sample_ID, ]
 
 
 #
-# ############## MODEL DONE IN CLASS###################
-# # fit <- train(Pay ~ Age + Education + LOS, data = dat4 , method = "rpart",
-# #   na.action = na.pass,
-# #   trControl = trainControl(method = "cv", number = 10),
-# #   tuneLength=10)
-# #
-# # rpart.plot(fit$finalModel, extra = 2, under = TRUE, varlen=0, faclen=0)
-# #
-# # print(varImp(fit))
-# #
-# # testing <- dat3[-sample_ID, ]
-# # testing <- testing[sample(1:nrow(testing), size = 1000), ]
-# #
-# # pred <- predict(fit, newdata = testing, na.action = na.pass)
-# # print(head(pred))
-# #
-# # print(confusionMatrix(data = pred, testing$Pay))
+# ############## RPART For Pay ###################
+fit <- train(Pay ~ Age + Education + LOS, data = dat4 , method = "rpart",
+  na.action = na.pass,
+  trControl = trainControl(method = "cv", number = 10),
+  tuneLength=10)
+
+rpart.plot(fit$finalModel, extra = 2, under = TRUE, varlen=0, faclen=0)
+
+print(varImp(fit))
+
+testing <- dat3[-sample_ID, ]
+testing <- testing[sample(1:nrow(testing), size = 1000), ]
+
+pred <- predict(fit, newdata = testing, na.action = na.pass)
+print(head(pred))
+
+print(confusionMatrix(data = pred, testing$Pay))
 # ####################################################
-#
-#
+
+############### Neural Net for Pay ###############
+
+nnetFit <- train(Pay ~ Age + Education + LOS, method = "nnet", data = dat4,
+    tuneLength = 5,  na.action = na.pass,
+    trControl = trainControl(
+        method = "cv"),
+  trace = FALSE)
+
+  print(nnetFit)
+  print(nnetFit$finalModel)
+
+#####################################################################
+
+################# Random Forest for Pay #################
+
+C45Fit <- train(Pay ~ Age + Education + LOS, method = "J48", data = dat4,
+    tuneLength = 5,na.action = na.pass,
+    trControl = trainControl(
+        method = "cv"))
+print(C45Fit)
+
+###################################################
+
+
+
 ############## MODEL OF LOS ###################
 fit <- train(LOS ~ Age + Pay, data = dat4 , method = "rpart",
   na.action = na.omit,
@@ -94,3 +123,11 @@ print(head(pred))
 
 print(confusionMatrix(data = pred, testing$LOS))
 ####################################################
+
+
+############## C Tree for SupervisoryStatus #######################
+
+x <- ctree(SupervisoryStatus ~ Pay  + LOS, data=dat4)
+plot(x, type="simple")
+
+#####################################################################
